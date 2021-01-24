@@ -1,0 +1,81 @@
+#ti30x {
+    width: 30vw;
+    height: 60vw;
+    background-color: midnightblue;
+    border-radius: 2vw;
+    position:absolute;
+}
+#screen{
+    background-color: darkolivegreen;
+    width: 25vw;
+    height: 10vw;
+    margin:auto;
+    position: relative;
+    margin-top:2.5vw;
+    border: solid gray;
+}
+
+.digits {
+    font-size: 2vw;
+    text-align: right;
+    margin-right: 1vw;
+}
+
+.secondbutton {
+    background-color: deepskyblue !important;
+    color: white;
+}
+
+.smallbutton button{
+    margin-top: 1vw;
+    width: 5vw;
+    height: 2.5vw;
+    background-color: midnightblue;
+    color: white;
+    margin-right: .5vw;
+}
+
+.smallbutton p{
+    position:relative;
+    margin-top: .5vw;
+}
+
+.buttons{
+    margin:auto;
+    width:30vw;
+    height:45vw;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: grey;
+}
+
+#rows12 {
+    margin-top:.5vw;
+    margin-left: .5vw;
+    background-color: yellow;
+    width: 16.5vw;
+    height:7vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#arrows {
+    margin-top: 0.5vw;
+    width:12.5vw;
+    height:7vw;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.arrow{
+    margin: auto !important;
+    height: 2vw !important;
+    margin-top: 0.25vw !important;
+
+}
+
+.break{
+    flex-basis:100%;
+    height: 0 !important;
+}
